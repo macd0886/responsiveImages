@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Responsive Images</title>
+    <link rel="stylesheet" href="css/main.css"> </head>
+
+<body>
+    <header>
+        <h1>Sam MacDonald</h1> </header>
+    <main>
+        <div class="wrapper">
+            <ul>
+                <li>
+                    <picture>
+                        <source srcset="img/wisconsin-large.jpg" media="(min-width:1500px)">
+                        <source srcset="img/wisconsin-medium.jpg" media="(min-width:700px) and (max-width:1500px)">
+                        <source srcset="img/wisconsin-small.jpg" media="(max-width:700px)"> <img src="img/sunset-medium.jpg" alt="sunset" /> </picture>
+                </li>
+                <li>
+                    <picture>
+                        <source srcset="img/rock-large.jpg" media="(min-width:1500px)">
+                        <source srcset="img/rock-medium.jpg" media="(min-width:700px) and (max-width:1500px)">
+                        <source srcset="img/rock-small.jpg" media="(max-width:700px)"> <img src="img/rock-medium.jpg" alt="pretty cliff" /> </picture>
+                </li>
+                <li>
+                    <picture>
+                        <source srcset="img/crowd-large.jpg" media="(min-width:1500px)">
+                        <source srcset="img/crowd-medium.jpg" media="(min-width:700px) and (max-width:1500px)">
+                        <source srcset="img/crowd-small.jpg" media="(max-width:700px)"> <img src="img/crowd-medium.jpg" alt="crowed" /> </picture>
+                </li>
+                <li>
+                    <picture>
+                        <source srcset="img/guitar-large.jpg" media="(min-width:1500px)">
+                        <source srcset="img/guitar-medium.jpg" media="(min-width:700px) and (max-width:1500px)">
+                        <source srcset="img/guitar-small.jpg" media="(max-width:700px)"> <img src="img/guitar-medium.jpg" alt="guitar" /> </picture>
+                </li>
+                <li>
+                    <picture>
+                        <source srcset="img/pakistan-large.jpg" media="(min-width:1500px)">
+                        <source srcset="img/pakistan-medium.jpg" media="(min-width:700px) and (max-width:1500px)">
+                        <source srcset="img/pakistan-small.jpg" media="(max-width:700px)"> <img src="img/pakistan-medium.jpg" alt="pakistan" /> </picture>
+                </li>
+                <li>
+                    <picture>
+                        <source srcset="img/stage-large.jpg" media="(min-width:1500px)">
+                        <source srcset="img/stage-medium.jpg" media="(min-width:700px) and (max-width:1500px)">
+                        <source srcset="img/stage-small.jpg" media="(max-width:700px)"> <img src="img/stage-medium.jpg" alt="guy singing" /> </picture>
+                </li>
+                <li>
+                    <picture>
+                        <source srcset="img/carrots-large.jpg" media="(min-width:1500px)">
+                        <source srcset="img/carrots-medium.jpg" media="(min-width:700px) and (max-width:1500px)">
+                        <source srcset="img/carrots-small.jpg" media="(max-width:700px)"> <img src="img/carrots-medium.jpg" alt="carrots" /> </picture>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <!--       All images used belong to the following: Markus Spiske, Yinan Chen, and Fahim Akhter-->
+        <p>&copy;
+            <time datetime="2016">2016</time> Sam MacDonald</p>
+    </footer>
+</body>
+
+</html>
